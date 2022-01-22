@@ -16,6 +16,15 @@
 #define CONFIG 4
 
 / {
+        combos {
+          compatible = "zmk,combos";
+
+          combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
+          };
+        };
         keymap {
                 compatible = "zmk,keymap";
 
