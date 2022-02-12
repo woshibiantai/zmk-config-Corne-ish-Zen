@@ -66,7 +66,7 @@
                         label = "NUMPAD";
                         bindings = < 
    &none &trans     &trans   &trans           &trans      &trans                        &kp LBKT    &kp N7   &kp N8 &kp N9 &kp MINUS &none
-   &none &trans     &trans   &kp LA(LS(TAB))  &kp LA(TAB) &trans                        &kp LBRC    &kp N4   &kp N5 &kp N6 &kp EQUAL &none
+   &none &trans     &trans   &kp LG(LS(TAB))  &kp LG(TAB) &trans                        &kp LBRC    &kp N4   &kp N5 &kp N6 &kp EQUAL &none
    &none &kp LSHIFT &trans   &trans           &trans      &trans                        &kp SLASH   &kp N1   &kp N2 &kp N3 &kp BSLH  &none
                                               &trans      &trans &trans    &kp SPACE    &kp N0      &tog NUMPAD
                         >;
