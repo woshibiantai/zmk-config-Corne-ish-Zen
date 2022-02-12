@@ -23,6 +23,11 @@
             key-positions = <1 2>;
             bindings = <&kp ESC>;
           };
+          combo_grave {
+            timeout-ms = <50>;
+            key-positions = <2 3>;
+            bindings = <&kp GRAVE>;
+          };
           combo_lpar {
             timeout-ms = <50>;
             key-positions = <7 8>;
@@ -65,8 +70,8 @@
                 numpad_layer {
                         label = "NUMPAD";
                         bindings = < 
-   &none &trans     &trans   &trans           &trans      &trans                        &kp LBKT    &kp N7   &kp N8 &kp N9 &kp MINUS &none
-   &none &trans     &trans   &kp LG(LS(TAB))  &kp LG(TAB) &trans                        &kp LBRC    &kp N4   &kp N5 &kp N6 &kp EQUAL &none
+   &none &trans     &trans   &kp LC(LS(TAB))  &kp LC(TAB) &trans                        &kp LBKT    &kp N7   &kp N8 &kp N9 &kp MINUS &none
+   &none &trans     &trans   &kp LG(LS(TAB))  &kp LG(TAB) &kp LG(GRAVE)                 &kp LBRC    &kp N4   &kp N5 &kp N6 &kp EQUAL &none
    &none &kp LSHIFT &trans   &trans           &trans      &trans                        &kp SLASH   &kp N1   &kp N2 &kp N3 &kp BSLH  &none
                                               &trans      &trans &trans    &kp SPACE    &kp N0      &tog NUMPAD
                         >;
