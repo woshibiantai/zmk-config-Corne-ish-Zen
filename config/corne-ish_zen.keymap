@@ -60,20 +60,20 @@
                 default_layer {
                         label = "QWERTY";
                         bindings = <
-   &none &kp Q        &kp W &kp E &kp R    &kp T                           &kp Y            &kp U       &kp I    &kp O   &kp P    &none
-   &none &kp A        &kp S &kp D &kp F    &kp G                           &kp H            &kp J       &kp K    &kp L   &kp BSPC &none
-   &none &mt LSHIFT Z &kp X &kp C &kp V    &kp B                           &kp N            &kp M       &kp CMMA &kp DOT &kp FSLH &none
-                                  &kp LALT &kp LGUI &kp LCTRL    &kp ENTER &lt NAVIGN SPACE &tog NUMPAD
+   &none &kp Q        &kp W        &kp E &kp R    &kp T                           &kp Y            &kp U       &kp I    &kp O   &kp P    &none
+   &none &kp A        &kp S        &kp D &kp F    &kp G                           &kp H            &kp J       &kp K    &kp L   &kp BSPC &none
+   &none &mt LSHIFT Z &mt LSHIFT X &kp C &kp V    &kp B                           &kp N            &kp M       &kp CMMA &kp DOT &kp FSLH &none
+                                   &kp LALT &kp LGUI &kp LCTRL    &kp ENTER &lt NAVIGN SPACE &tog NUMPAD
                         >;
                 };
 
                 numpad_layer {
                         label = "NUMPAD";
                         bindings = < 
-   &none &trans     &trans   &kp LC(LS(TAB))  &kp LC(TAB) &trans                        &kp LBKT    &kp N7   &kp N8 &kp N9 &kp MINUS &none
-   &none &trans     &trans   &kp LG(LS(TAB))  &kp LG(TAB) &kp LG(GRAVE)                 &kp LBRC    &kp N4   &kp N5 &kp N6 &kp EQUAL &none
-   &none &kp LSHIFT &trans   &trans           &trans      &trans                        &kp SLASH   &kp N1   &kp N2 &kp N3 &kp BSLH  &none
-                                              &trans      &trans &trans    &kp SPACE    &kp N0      &tog NUMPAD
+   &none &trans     &trans     &trans      &trans  &trans                      &kp LBKT   &kp N7   &kp N8 &kp N9 &kp MINUS &none
+   &none &trans     &trans     &kp LS(TAB) &kp TAB &kp GRAVE                   &kp LBRC   &kp N4   &kp N5 &kp N6 &kp EQUAL &none
+   &none &kp LSHIFT &kp LSHIFT &trans      &trans  &trans                      &kp SLASH  &kp N1   &kp N2 &kp N3 &kp BSLH  &none
+                                           &trans  &trans &trans    &kp SPACE  &kp N0     &tog NUMPAD
                         >;
                 };
 
